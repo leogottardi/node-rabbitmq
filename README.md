@@ -1,11 +1,11 @@
 # Vitta NodeJS Backend
 
-# Indice
+# Summary
 
 - [📑 About](#-about)
-- [🚀 Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [📦 Como baixar e executar o projeto](#-como-baixar-o-projeto)
-- [📓 Como utilizar](#-como-utilizar)
+- [🚀 Technologies used](#-technologies-used)
+- [📓 Get started](#-get-started)
+- [📦 How to download the project ](#-how-to-download-the-project)
 
 ---
 
@@ -13,7 +13,7 @@
 
 ## The project was about demonstrating the basic use of a connection between a publisher and a consumer to a rabbitmq service.
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Technologies used
 
 The project was developed using the following technologies:
 
@@ -51,7 +51,7 @@ In the consumer tab, see the messages
 
 ---
 
-## 📦 How to download the project 
+## 📦 How to download the project
 
 ```bash
     # Clone the repository
