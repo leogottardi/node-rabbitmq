@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 amqp.connect('amqp://guest:guest@localhost:5672').then(conn => {
   conn.createChannel().then(ch => {
     rl.on('line', line => {
-      ch.publish('test-exchange', '', Buffer.from(line))
+      ch.publish('amq.fanout', '', Buffer.from(line))
       console.log(` [x] Sent ${line}`)
     })
   })
