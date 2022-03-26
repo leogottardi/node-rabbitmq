@@ -1,4 +1,4 @@
-# Vitta NodeJS Backend
+# Basic Usage RabbitMQ
 
 # Summary
 
@@ -61,7 +61,7 @@ Example:
 
 ```bash
     # Clone the repository
-    $ git clone https://github.com/leogottardi/vitta-nodejs-backend.git
+    $ git clone git@github.com:leogottardi/basic-usage-rabbitmq.git
 
     # Enter on directory
     $ cd basic-usage-rabbitmq
