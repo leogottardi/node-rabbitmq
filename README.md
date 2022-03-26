@@ -51,6 +51,12 @@ In the consumer tab, see the messages
 
 ---
 
+Example:
+
+![Screenshot](https://raw.githubusercontent.com/leogottardi/basic-usage-rabbitmq/master/.github/use-example.png)
+
+---
+
 ## 📦 How to download the project
 
 ```bash
