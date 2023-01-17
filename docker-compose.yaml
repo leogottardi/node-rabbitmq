@@ -1,5 +1,7 @@
 version: '3.3'
-
+networks:
+  rabbit-node:
+    driver: 'bridge'
 services:
   rabbitmq:
     image: rabbitmq:3.8-management
@@ -10,3 +12,5 @@ services:
       RABBITMQ_DEFAULT_USER: guest
       RABBITMQ_DEFAULT_PASS: guest
       RABBITMQ_DEFAULT_VHOST: /
+    networks:
+      - rabbit-node
