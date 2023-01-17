@@ -1,5 +1,22 @@
 {
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "Project to create examples with RabbitMQ",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leogottardi/node-rabbitmq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leogottardi/node-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/leogottardi/node-rabbitmq#readme",
   "dependencies": {
-    "amqplib": "^0.8.0"
+    "@types/amqplib": "^0.10.1",
+    "amqplib": "^0.10.3"
   }
 }
